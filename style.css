@@ -1,10 +1,10 @@
 body{
-    background-color: antiquewhite;
+    background-color: grey;
 }
 
 .title{
     text-align: center;
-    color:darkblue;
+    color:darkmagenta;
     font-size: 40px;
 }
 
@@ -12,7 +12,7 @@ body{
     text-align: center;
     background-color: yellow;
     border-radius: 15px;
-    color: azure;
+    color: black;
     width: 300px;
     height: 80px;
 
@@ -20,15 +20,15 @@ body{
 
 .btn{
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: goldenrod;
     border-radius: 15px;
-    color: white;
+    color:black;
     width: 200px;
     height: 80px;
 }
 
 .result{
     text-align: center;
-    color: blue;
+    color: darkorchid;
     font-size: 30px;
 }
