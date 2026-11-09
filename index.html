@@ -1,20 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Number Guessing Game</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+
     <center>
-        <br>
-        <br>
-   <h1 class="title">Number Guessing Game</h1>
-    <input class="txt" type="number" id="button" placeholder="EnterNumber">
-    <button class="btn" onclick="number()">Guess</button>
-   <h3 class="result">Result</h3>
+
+        <br><br>
+
+        <h1 class="title">Number Guessing Game</h1>
+
+        <input
+            class="txt"
+            type="number"
+            id="userNumber"
+            placeholder="Enter Your Number"
+        >
+
+        <br><br>
+
+        <button class="btn" onclick="checkNumber()">
+            Guess
+        </button>
+
+        <button class="btn" onclick="refreshGame()">
+            Refresh Game
+        </button>
+
+        <h3 class="results" id="result">Result</h3>
+
     </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
+
 </body>
 </html>
+
