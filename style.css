@@ -4,7 +4,7 @@ body{
 
 .title{
     text-align: center;
-    color:blue;
+    color:darkblue;
     font-size: 40px;
 }
 
@@ -27,5 +27,5 @@ body{
 
 .result{
     text-align: center;
-    color: palevioletred;
+    color: blue;
 }
