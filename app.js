@@ -1,18 +1,28 @@
 
-let randomNumber=(Math.floor(Math.random()*5+1));
+let randomNumber=(Math.floor(Math.random()*10+1));
+console.log("randomNumber");
+
 function number(){
     
-    let Num=number(document.getElementById("button").Value);
+    let Num=Number(document.getElementById("button").value);
 
-    if(number>randomNumber){
-        document.getElementById("Result").innerHTML="Gretar than 5 numbers";
-        
-    }else if(number==randomNumber){
-        document.getElementById("Result").innerHTML=" Same as 5 number";
-    
+    if(Num>randomNumber){
+        document.getElementById("Result").innerHTML="Gretar than Randomnumbers";
+        console.log("Gretar than Randomnumbers");   
+   
+    }else if(Num<randomNumber){
+        document.getElementById("Result").innerHTML=" Less than  Randomnumber";
+        console.log("Same as  Randomnumber");
+   
+
+
     }else{
-        document.getElementById("Result").innerHTML=" Less than 5 numbers";
+        document.getElementById("Result").innerHTML=" Same as Randomnumbers";
+
+        console.log("Less than Randomnumbers");
 
     }
+    
+
 }
 
