@@ -4,14 +4,25 @@ body{
 
 .title{
     text-align: center;
-    color:purple ;
+    color:blue;
     font-size: 40px;
+}
+
+.txt{
+    text-align: center;
+    background-color: darkslateblue;
+    color: azure;
+    width: 50px;
+    height: 80px;
+
 }
 
 .btn{
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(7, 51, 51);
     color: black;
+    width: 50px;
+    height: 40px;
 }
 
 .result{
